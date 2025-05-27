@@ -93,6 +93,7 @@ DB_NAME=news_scraper_db
 python scraping/main.py
 ```
 5. **Explore analysis notebook:**
+
 Open analysis/news_scraper_analysis.ipynb in JupyterLab or VSCode.
 
 🔐 Security Note
