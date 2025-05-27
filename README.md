@@ -18,7 +18,7 @@ This project is a **real-time data scraper and analyzer** built with Python and 
 | Area | Technology |
 |------|------------|
 | Backend | `Python`, `Requests`, `BeautifulSoup`, `Selenium` |
-| Data Storage | `PostgreSQL` via `SQLAlchemy` and `dbver` |
+| Data Storage | `PostgreSQL` via `SQLAlchemy` and `dbeaver` |
 | Analysis | `Pandas`, `NumPy` |
 | Visualization | `Matplotlib`, `Seaborn`, `WordCloud` |
 | Environment | `venv`, `.env` for secure credentials |
