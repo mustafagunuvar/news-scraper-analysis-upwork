@@ -54,14 +54,22 @@ Environment-specific credentials (host, port, user, password, database) are safe
 ## 📁 Project Structure
 
 news-scraper/
-│
+
 ├── data/ # Raw and cleaned data (local cache)
+
 ├── db/ # Database-related code
+
 ├── analysis/ # Jupyter notebook analysis
+
 ├── config/ # Environment variables and DB settings
+
 ├── scraping/ # All scraping logic (Selenium, BS4)
+
 ├── .env # Not shared (contains DB credentials)
+
 ├── requirements.txt # All dependencies
+
 ├── README.md
+
 └── .gitignore
 
