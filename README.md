@@ -44,10 +44,6 @@ Environment-specific credentials (host, port, user, password, database) are safe
 - Most Active Authors by Total Comments  
 - Hourly News Posting Frequency
 
-<p align="center">
-  <img src="assets/wordcloud_example.png" width="500" />
-</p>
-
 > Note: All visualizations are generated in the notebook:  
 > `analysis/news_scraper_analysis.ipynb`
 
