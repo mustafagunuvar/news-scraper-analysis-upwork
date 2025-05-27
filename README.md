@@ -94,7 +94,7 @@ python scraping/main.py
 ```
 5. **Explore analysis notebook:**
 
-Open analysis/news_scraper_analysis.ipynb in JupyterLab or VSCode.
+  Open analysis/news_scraper_analysis.ipynb in JupyterLab or VSCode.
 
 🔐 Security Note
 Sensitive credentials are excluded from version control via .gitignore.
