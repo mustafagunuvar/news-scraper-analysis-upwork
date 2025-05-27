@@ -69,3 +69,43 @@ news-scraper/
 
 └── .gitignore
 
+## 🛠️ Setup Instructions
+
+1. **Clone the repo:**
+```bash
+git clone https://github.com/mustafagunuvar/news-scraper-analysis-upwork.git
+```
+2. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+3. **Configure PostgreSQL:**
+Fill in your .env file with:
+```bash
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_NAME=news_scraper_db
+```
+4. **Run the scraper:**
+```bash
+python scraping/main.py
+```
+5. **Explore analysis notebook:**
+Open analysis/news_scraper_analysis.ipynb in JupyterLab or VSCode.
+
+🔐 Security Note
+Sensitive credentials are excluded from version control via .gitignore.
+Remember to never commit .env files or database passwords publicly.
+
+📬 Contact
+For inquiries or freelance work, feel free to reach out:
+📧 mustafa.gunuvar94@gmail.com
+
+⚠️ This project is for educational and professional portfolio purposes. The scraper respects Hacker News request limits and uses polite intervals between requests.
+
+
+
+
+
