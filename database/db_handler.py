@@ -41,7 +41,7 @@ def insert_articles(articles_df):
     conn = create_connection()
     cur = conn.cursor()
 
-    articles = articles_df.to_dict(orient="records")  # ✅ Buraya dikkat!
+    articles = articles_df.to_dict(orient="records") 
 
     values = [
         (item["title"], item["link"], item["score"], item["author"], item["comments"])
